@@ -45,7 +45,7 @@ public class CalcolaBiglietto {
 		
 		//-va applicato uno sconto del 40% per gli over 65
 		
-		double scontoOver = (prezzoBiglietto *20) / 100;
+		double scontoOver = (prezzoBiglietto *40) / 100;
 		
 		if(anni > 65) {
 			System.out.println("Il prezzo del tuo biglietto scontato è: " + (prezzoBiglietto - scontoOver));			
