@@ -7,12 +7,15 @@ public class CalcolaBiglietto {
 	public static void main(String[] args) {
 		
 		Scanner scanner = new Scanner(System.in);
+		
 		//Il programma dovrà chiedere all’utente il numero di chilometri che vuole percorrere e l’età del passeggero
+		
 		double kmDaPercorrere;
 		int anni;
 		
-		System.out.print("Inserisci il numero di chilometri di percorrere: ");
+		System.out.print("Inserisci il numero di chilometri da percorrere: ");
 		kmDaPercorrere = scanner.nextDouble();	
+		
 		System.out.print("Inserisci la tua età: ");
 		anni = scanner.nextInt();		
 		
@@ -24,6 +27,7 @@ public class CalcolaBiglietto {
 		
 		
 		//-il prezzo del biglietto è definito in base ai km (0.21 € al km)
+		
 		double prezzoKm = 0.21;
 		
 		double prezzoBiglietto = kmDaPercorrere * prezzoKm;
